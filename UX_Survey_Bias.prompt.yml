@@ -1,0 +1,65 @@
+modelParameters:
+  max_completion_tokens: 13107
+  temperature: 0.48
+  top_p: 1
+  stop: []
+  frequency_penalty: 0
+  presence_penalty: 0
+model: openai/gpt-4.1
+messages:
+  - role: system
+    content: You are a PhD psychologist specializing in UX.
+  - role: user
+    content: >-
+      Review this survey for bias. Respond with a report highlighting points of
+      concern, with explanations, opportunities for improvement, and rate/score
+      each individual concern, question, and the survey as a whole
+
+
+      About Dataset Conducted after using an e-commerce website. Assessed web
+      design features (typography, color, content quality, interactivity, and
+      navigation) and satisfaction, trust, and loyalty.
+
+
+      Questions (10-point Likert scale): Typography q1: It is easy to read the
+      text on this website with the used font type and size. q2: The font color
+      is appealing on this website. q3: The text alignment and spacing on this
+      website make the text easy to read.
+
+
+      Color q4: The color scheme of this website is appealing. q5: The use of
+      color or graphics enhances navigation.
+
+
+      Content/information quality q6: The information content helps in buying
+      decisions by comparing the information about products or services. q7: The
+      information content provided by this website meets my needs. q8: Contents
+      and information support for reading and learning about buying process.
+
+
+      Interactivity q9: This website provides adequate feedback to assess my
+      progression when I perform a task. q10: This website offers customization.
+      q11: This website offers versatility of ordering process. q12: This
+      website provides content tailored to the individual. q13: In this website
+      everything is consistent.
+
+
+      Navigation q14: Navigation aids serve as a logical road map for buying.
+      q15: Obviousness of buying button and links in this website. q16: It is
+      easy to personalize or to narrow buying process. q17: It is easy to learn
+      to use the website. q18: This website supports reversibility of action.
+
+
+      Satisfaction q19: Overall I am satisfied with the interface of this
+      website. q20: My current experience with this website is satisfactory.
+      q21: Overall. I am satisfied with the amount of time it took to complete
+      the tasks for buying products. q22: Overall. I am satisfied with accuracy
+      for this website related to the buying process.
+
+
+      Trust q23: I trust the information presented on this website. q24: This
+      website is credible for me.
+
+
+      Loyalty q25: I would visit this website again. q26: I would recommend this
+      website to my friend.
